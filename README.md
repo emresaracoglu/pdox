@@ -47,7 +47,8 @@ $config = [
 	'password'	=> '',
 	'charset'	=> 'utf8',
 	'collation'	=> 'utf8_general_ci',
-	'prefix'	 => ''
+	'prefix'	=> '',
+	'debug'         => false
 ];
 
 $db = new \Buki\Pdox($config);
